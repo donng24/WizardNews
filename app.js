@@ -6,7 +6,7 @@ const postBank = require("./postBank");
 
 app.use(morgan('dev'));
 
-app.get('/', async (req, res, next) => {
+app.get('/postBank.js', async (req, res, next) => {
   try {
     const posts = await postBank.list();
 
