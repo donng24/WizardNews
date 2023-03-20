@@ -5,6 +5,7 @@ const morgan = require("morgan");
 const postBank = require("./postBank");
 
 app.use(morgan('dev'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', async (req, res, next) => {
   try {
