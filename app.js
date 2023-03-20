@@ -13,7 +13,7 @@ app.get('/', async (req, res, next) => {
     <html>
     <head>
       <title>Wizard News</title>
-      <link rel="stylesheet" href="/style.css" />
+      <link rel="stylesheet" href="public/style.css" />
     </head>
     <body>
       <div class="news-list">
@@ -48,7 +48,7 @@ app.get('/posts/:id', async (req, res, next) => {
     <html>
     <head>
       <title>Wizard News</title>
-      <link rel="stylesheet" href="/style.css" />
+      <link rel="stylesheet" href="public/style.css" />
     </head>
     <body>
       <div class="news-list">
