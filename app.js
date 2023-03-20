@@ -6,7 +6,7 @@ const postBank = require("./postBank")
 
 app.use(morgan('dev'));
 
-app.get('/posts/:id', (req, res) => {
+app.get('/home/donng24/Fullstack/PairExercise.Wizard-news-pt1/postBank.js', (req, res) => {
   const id = req.params.id;
   const post = postBank.find(id);
   
